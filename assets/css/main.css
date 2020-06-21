@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+
+.navigation .nav-ticket {
+    background-color: #0092cc;
+}
+
+.navigation .navbar-ticket {
+    width: 80%;
+}
+
+
+.navigation a.brand-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.navbar-nav li.nav-item a.nav-link {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.hero-section {
+    min-height: calc(100vh - 101px);
+    margin-bottom: 0;
+    background-color: #0092cc;
+    border-radius: 0;
+}
+
+.hero-section .hero-content {
+    padding-top: 50px;
+}
+
+.hero-section .hero-content p{
+    font-size: 2.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.hero-section .hero-content input.form-search {
+    padding: 8px 16px;
+    height: 45px;
+
+}
+
+.hero-section .hero-content button.btn-search {
+    height: 45px;
+    width: 80px;
+    padding: 8px 16px;
+    background-color: #0074a1;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: transform 500ms;
+}
+
+.hero-section .hero-content button.btn-search:hover {
+    background-color: #0087bd;
+    color: white;
+    transform: translateY(-5px);
+    transition: transform 500ms;
+}
+
+@media screen and (max-width: 991.98px) {
+
+    .hero-section .hero-content {
+        padding-top: 12px;
+    }
+
+    .hero-section .hero-content button.btn-search {
+        height: 45px;
+        width: 100%;
+        padding: 8px 16px;
+        background-color: #0074a1;
+        color: white;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .hero-section .hero-content button.btn-search:hover {
+        background-color: #0087bd;
+        color: white;
+        transform: translateY(0px);
+    }
+
+}
